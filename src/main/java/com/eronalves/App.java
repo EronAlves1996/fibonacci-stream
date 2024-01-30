@@ -1,6 +1,5 @@
 package com.eronalves;
 
-import java.util.Collections;
 import java.util.stream.Stream;
 
 /**
@@ -32,4 +31,5 @@ public class App {
         .limit(20)
         .forEach(System.out::println);
   }
+
 }
